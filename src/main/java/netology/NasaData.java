@@ -17,8 +17,8 @@ public class NasaData {
             @JsonProperty("date") Date date,
             @JsonProperty("explanation") String explanation,
             @JsonProperty("hdurl") String hdurl,
-            @JsonProperty("media_type") String media_type,
-            @JsonProperty("service_version") String service_version,
+            @JsonProperty("mediaType") String mediaType,
+            @JsonProperty("serviceVersion") String serviceVersion,
             @JsonProperty("title") String title,
             @JsonProperty("url") String url
     ) {
@@ -26,8 +26,8 @@ public class NasaData {
         this.date = date;
         this.explanation = explanation;
         this.hdurl = hdurl;
-        this.media_type = media_type;
-        this.service_version = service_version;
+        this.media_type = mediaType;
+        this.service_version = serviceVersion;
         this.title = title;
         this.url = url;
     }

@@ -11,11 +11,9 @@ import org.apache.http.impl.client.HttpClientBuilder;
 import java.io.*;
 import java.net.URL;
 import java.util.Arrays;
-import java.util.List;
 
 public class NasaCaller {
 
-    public static final String REMOTE_SERVICE_URI = "https://jsonplaceholder.typicode.com/posts";
     public static final ObjectMapper mapper = new ObjectMapper();
 
     private static String getNameFromUrl(String url){
