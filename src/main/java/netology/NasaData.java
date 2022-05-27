@@ -17,8 +17,8 @@ public class NasaData {
             @JsonProperty("date") Date date,
             @JsonProperty("explanation") String explanation,
             @JsonProperty("hdurl") String hdurl,
-            @JsonProperty("mediaType") String mediaType,
-            @JsonProperty("serviceVersion") String serviceVersion,
+            @JsonProperty("media_type") String mediaType,
+            @JsonProperty("service_version") String serviceVersion,
             @JsonProperty("title") String title,
             @JsonProperty("url") String url
     ) {
@@ -48,7 +48,7 @@ public class NasaData {
         return hdurl;
     }
 
-    public String getMedia_type() {
+    public String getMediaType() {
         return mediaType;
     }
 
