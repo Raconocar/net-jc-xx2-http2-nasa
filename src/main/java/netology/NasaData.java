@@ -8,8 +8,8 @@ public class NasaData {
     private final Date date;
     private final String explanation;
     private final String hdurl;
-    private final String media_type;
-    private final String service_version;
+    private final String mediaType;
+    private final String serviceVersion;
     private final String title;
     private final String url;
     public NasaData(
@@ -26,8 +26,8 @@ public class NasaData {
         this.date = date;
         this.explanation = explanation;
         this.hdurl = hdurl;
-        this.media_type = mediaType;
-        this.service_version = serviceVersion;
+        this.mediaType = mediaType;
+        this.serviceVersion = serviceVersion;
         this.title = title;
         this.url = url;
     }
@@ -49,11 +49,11 @@ public class NasaData {
     }
 
     public String getMedia_type() {
-        return media_type;
+        return mediaType;
     }
 
     public String getService_version() {
-        return service_version;
+        return serviceVersion;
     }
 
     public String getTitle() {
@@ -71,8 +71,8 @@ public class NasaData {
                 ", date='" + date + '\'' +
                 ", explanation='" + explanation + '\'' +
                 ", hdurl='" + hdurl + '\'' +
-                ", media_type='" + media_type + '\'' +
-                ", service_version='" + service_version + '\'' +
+                ", mediaType='" + mediaType + '\'' +
+                ", serviceVersion='" + serviceVersion + '\'' +
                 ", title='" + title + '\'' +
                 ", url='" + url + '\'' +
                 '}';
